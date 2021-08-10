@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>You can store to-do tasks and manage them.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>To-Do Manager</label>
+    <navType>Console</navType>
+    <tabs>toDoManager</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>To_Do_Manager_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>toDoManager</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
